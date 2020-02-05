@@ -1,5 +1,7 @@
-# azure-policies-powershell
-A Gathering of PS Scripts and Cmdlets Related to Deploying Policies Using PowerShell
+# Azure Policies and Management Groups Via PowerShell
+
+
+A Gathering of PS Scripts and Cmdlets Related to Deploying Policies and Management Groups Using PowerShell
 
 
 ## POLICY ASSIGNMENT EXAMPLE
