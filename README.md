@@ -12,15 +12,15 @@ URL - https://docs.microsoft.com/en-us/azure/governance/management-groups/create
 
 ## Example cmdlets
 
-New Group:
+### New Group:
 
 New-AzManagementGroup -GroupName 'Contoso'
 
-New Group with Display Name
+### New Group with Display Name:
 
 New-AzManagementGroup -GroupName 'Contoso' -DisplayName 'Contoso Group'
 
-New Group Under a parent
+### New Group Under a parent:
 
 $parentGroup = Get-AzManagementGroup -GroupName Contoso
 New-AzManagementGroup -GroupName 'ContosoSubGroup' -ParentId $parentGroup.id
