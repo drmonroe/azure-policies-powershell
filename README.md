@@ -106,4 +106,9 @@ $PolicySet = Get-AzPolicySetDefinition -Name "plociysetguidhere"
 
 URL - https://docs.microsoft.com/en-us/azure/governance/policy/concepts/definition-structure
 
+## Create an Initiative
+
+URL - https://docs.microsoft.com/en-us/azure/governance/policy/tutorials/create-and-manage
+
+
 
